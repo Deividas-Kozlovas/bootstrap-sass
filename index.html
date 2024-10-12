@@ -7,19 +7,39 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-    <section>
+    <section class="main">
          <header>
-            <nav>
-                <p>Shayna</p>
-                <ul>
-                    <li>Home</li>
-                    <li>Start</li>
-                    <li>Brawse</li>
-                    <li>Pricing</li>
-                    <li>Stray</li>
-                </ul>
-                <button type="button">Sign In</button>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand .fw-light" href="#">Shayna</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Start</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Brawse</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Story</a>
+                      </li>
+                    </ul>              
+                    <form class="d-flex">
+                      <button class="btn btn-outline-secondary px-4" type="submit">Sing In</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>              
         </header>
         <section>
             <div>
@@ -80,6 +100,7 @@
             </div>
         </section>
     </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 

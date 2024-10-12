@@ -1,0 +1,10 @@
+.navbar{    
+    margin-top: 40px;
+    .nav-link{
+        margin: 0 20px;
+            &.active {
+                height: 33px;
+                border-bottom: 4px solid black;
+            }
+        }  
+}

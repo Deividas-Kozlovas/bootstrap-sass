@@ -1,6 +1,9 @@
 @import "mixins/banner";
 @include bsBanner("");
 
+//Components
+@import "components/main";
+@import "components/header";
 
 // scss-docs-start import-stack
 // Configuration
