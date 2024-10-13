@@ -1,10 +1,6 @@
 @import "mixins/banner";
 @include bsBanner("");
 
-//Components
-@import "components/main";
-@import "components/header";
-
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
@@ -13,6 +9,14 @@
 @import "maps";
 @import "mixins";
 @import "utilities";
+
+@import "custom-variables"; 
+
+//Components
+@import "components/main";
+@import "components/header";
+@import "components/hero";
+
 
 // Layout & components
 @import "root";

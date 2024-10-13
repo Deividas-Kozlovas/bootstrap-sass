@@ -9,11 +9,56 @@
 
 .navbar {
   margin-top: 40px; }
+  .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .container-xxl {
+    padding: 0; }
   .navbar .nav-link {
-    margin: 0 20px; }
+    margin: 0 25px;
+    padding: 0 !important; }
     .navbar .nav-link.active {
       height: 33px;
       border-bottom: 4px solid black; }
+
+.hero {
+  padding-top: 2rem; }
+  .hero h1, .hero .h1 {
+    font-size: 3vw;
+    font-weight: bold; }
+  .hero__description {
+    margin-top: 2rem;
+    width: 80%; }
+  .hero__description {
+    color: #6c757d; }
+  .hero__images {
+    position: relative;
+    width: 100%; }
+  .hero__portfolio-image {
+    width: 100%; }
+    .hero__portfolio-image img {
+      width: 85%;
+      height: auto;
+      border-radius: 50%; }
+  .hero__review, .hero__portfolio-link {
+    position: absolute;
+    z-index: 1; }
+    .hero__review img, .hero__portfolio-link img {
+      width: 100%;
+      height: auto;
+      border-radius: 0; }
+  .hero__review {
+    top: 78%;
+    left: 5%;
+    width: 30%;
+    height: auto; }
+  .hero__portfolio-link {
+    top: 45%;
+    left: 78%;
+    width: 10%;
+    height: auto; }
+  .hero button {
+    width: 200px;
+    height: 80px;
+    margin: 2rem 0;
+    font-size: 1.5rem; }
 
 :root,
 [data-bs-theme="light"] {
@@ -86,13 +131,13 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.2rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #fff;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-color: #333;
+  --bs-body-color-rgb: 51, 51, 51;
+  --bs-body-bg: #E6E6E4;
+  --bs-body-bg-rgb: 230, 230, 228;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
@@ -3895,7 +3940,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--bs-accordion-btn-color);
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
