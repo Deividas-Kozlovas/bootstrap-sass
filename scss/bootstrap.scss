@@ -10,13 +10,13 @@
 @import "mixins";
 @import "utilities";
 
-@import "custom-variables"; 
+@import "custom-variables";
 
 //Components
 @import "components/main";
 @import "components/header";
 @import "components/hero";
-
+@import "components/sponsors";
 
 // Layout & components
 @import "root";

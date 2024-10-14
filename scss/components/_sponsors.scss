@@ -1,0 +1,20 @@
+.sponsors {
+  padding-top: $spacer * 10;
+  width: 80%;
+  margin: 0 auto;
+
+  &__text {
+    font-size: 30px;
+    padding-bottom: $spacer * 2;
+  }
+
+  &__images {
+    height: 45px;
+  }
+
+  &__item {
+    & img {
+      height: 100%;
+    }
+  }
+}
