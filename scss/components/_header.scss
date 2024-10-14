@@ -1,16 +1,16 @@
-.navbar{    
-    margin-top: 40px;
-    
-    .container-fluid{
-        padding: 0;
-    }
+.navbar {
+  margin-top: 40px;
 
-    .nav-link{
-        margin: 0 25px;
-        padding: 0 !important;
-            &.active {
-                height: 33px;
-                border-bottom: 4px solid black;
-            }
-        }  
+  .container-fluid {
+    padding: 0;
+  }
+
+  .nav-link {
+    margin: 0 25px;
+    padding: 0 !important;
+    &.active {
+      height: 33px;
+      border-bottom: 4px solid black;
+    }
+  }
 }
