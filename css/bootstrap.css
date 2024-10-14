@@ -67,11 +67,17 @@
   .sponsors__text {
     font-size: 30px;
     padding-bottom: 2rem; }
-  .sponsors__images {
-    height: 45px; }
   .sponsors__item img {
     height: 100%; }
 
+@media screen and (max-width: 1400px) {
+  .sponsors {
+    height: 650px; }
+    .sponsors__images {
+      height: 200px !important; }
+    .sponsors__item {
+      height: 90px;
+      padding: 20px; } }
 .teachers {
   padding: 10rem 0 10rem 0; }
   .teachers__header {

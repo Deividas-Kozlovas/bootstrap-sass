@@ -8,13 +8,23 @@
     padding-bottom: $spacer * 2;
   }
 
-  &__images {
-    height: 45px;
-  }
-
   &__item {
     & img {
       height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sponsors {
+    height: 650px;
+    &__images {
+      height: 200px !important;
+    }
+
+    &__item {
+      height: 90px;
+      padding: 20px;
     }
   }
 }
