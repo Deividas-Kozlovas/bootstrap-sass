@@ -1,0 +1,27 @@
+.teachers {
+  padding: $spacer * 10 0 $spacer * 10 0;
+
+  &__header {
+    font-size: 30px;
+  }
+
+  &__title {
+    font-size: 60px;
+    padding-bottom: $spacer * 8;
+  }
+
+  &__body {
+    background-color: #fff;
+    height: 120px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__name {
+    padding: 20px 0 0 20px;
+  }
+
+  &__description {
+    margin: 10px 0 0 20px;
+    color: $gray-600;
+  }
+}
