@@ -13,5 +13,10 @@ This project is a responsive web page built using Bootstrap and SCSS with BEM.
 
 ### Running the Project
 
-1. Open `index.html` in your preferred web browser.
-2. Alternatively, use the Live Server extension in Visual Studio Code to launch the project.
+1. Clone the repository:
+```bash
+git clone https://github.com/Deividas-Kozlovas/bootstrap-sass.git
+cd bootstrap-sass
+```
+
+2. Open `index.html` in your preferred web browser. Alternatively, use the Live Server extension in Visual Studio Code to launch the project.
